@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+  <title>Frontend Mentor | Product list with cart</title>
+</head>
+
+<body>
+  <div class="section">
+    <div class="main">
+      <h3>Desserts</h3>
+      <div class="products">
+        <div class="product">
+          <div class="products-box">
+            <img src="./assets/images/image-waffle-desktop.jpg" alt="">
+            <button id="main-btn"><img src="./assets/images/icon-add-to-cart.svg" alt="">Add to Cart</button>
+            <button id="hidden-btn" style="display: none;"><img id="decrease" src="./assets/images/icon-decrement-quantity.svg" alt=""><span id="value">1</span><img id="increase" src="/assets/images/icon-increment-quantity.svg" alt=""></button>
+          </div>
+          <h5>Waffle</h5>
+          <h3 id="name">Waffle with Berries</h3>
+          <h3 id="text">$<span id="price">6.50</span></h3>
+        </div>
+        <div class="product">
+          <div class="products-box">
+            <img src="./assets/images/image-creme-brulee-desktop.jpg" alt="">
+            <button id="main-btn"><img src="./assets/images/icon-add-to-cart.svg" alt="">Add to Cart</button>
+            <button id="hidden-btn" style="display: none;"><img id="decrease" src="./assets/images/icon-decrement-quantity.svg" alt=""><span id="value">1</span><img id="increase" src="./assets/images/icon-increment-quantity.svg" alt=""></button>
+          </div>
+          <h5>Crème Brûlée</h5>
+          <h3 id="name">Vanilla Bean Crème Brûlée</h3>
+          <h3 id="text">$<span id="price">7.00</span></h3>
+        </div>
+        <div class="product">
+          <div class="products-box">
+            <img src="./assets/images/image-macaron-desktop.jpg" alt="">
+            <button id="main-btn"><img src="./assets/images/icon-add-to-cart.svg" alt="">Add to Cart</button>
+            <button id="hidden-btn" style="display: none;"><img id="decrease" src="./assets/images/icon-decrement-quantity.svg" alt=""><span id="value">1</span><img id="increase" src="./assets/images/icon-increment-quantity.svg" alt=""></button>
+          </div>
+          <h5>Macaron</h5>
+          <h3 id="name">Macaron Mix of Five</h3>
+          <h3 id="text">$<span id="price">8.00</span></h3>
+        </div>
+        <div class="product">
+          <div class="products-box">
+            <img src="./assets/images/image-tiramisu-desktop.jpg" alt="">
+            <button id="main-btn"><img src="./assets/images/icon-add-to-cart.svg" alt="">Add to Cart</button>
+            <button id="hidden-btn" style="display: none;"><img id="decrease" src="./assets/images/icon-decrement-quantity.svg" alt=""><span id="value">1</span><img id="increase" src="./assets/images/icon-increment-quantity.svg" alt=""></button>
+          </div>
+          <h5>Tiramisu</h5>
+          <h3 id="name">Classic Tiramisu</h3>
+          <h3 id="text">$<span id="price">5.50</span></h3>
+        </div>
+        <div class="product">
+          <div class="products-box">
+            <img src="./assets/images/image-baklava-desktop.jpg" alt="">
+            <button id="main-btn"><img src="./assets/images/icon-add-to-cart.svg" alt="">Add to Cart</button>
+            <button id="hidden-btn" style="display: none;"><img id="decrease" src="./assets/images/icon-decrement-quantity.svg" alt=""><span id="value">1</span><img id="increase"
+                src="./assets/images/icon-increment-quantity.svg" alt=""></button>
+          </div>
+          <h5>Baklava</h5>
+          <h3 id="name">Pistachio Baklava</h3>
+          <h3 id="text">$<span id="price">4.00</span></h3>
+        </div>
+        <div class="product">
+          <div class="products-box">
+            <img src="./assets/images/image-meringue-desktop.jpg" alt="">
+            <button id="main-btn"><img src="./assets/images/icon-add-to-cart.svg" alt="">Add to Cart</button>
+            <button id="hidden-btn" style="display: none;"><img id="decrease" src="./assets/images/icon-decrement-quantity.svg" alt=""><span id="value">1</span><img id="increase" src="./assets/images/icon-increment-quantity.svg" alt=""></button>
+          </div>
+          <h5>Pie</h5>
+          <h3 id="name">Lemon Meringue Pie</h3>
+          <h3 id="text">$<span id="price">5.00</span></h3>
+        </div>
+        <div class="product">
+          <div class="products-box">
+            <img src="./assets/images/image-cake-desktop.jpg" alt="">
+            <button id="main-btn"><img src="./assets/images/icon-add-to-cart.svg" alt="">Add to Cart</button>
+            <button id="hidden-btn" style="display: none;"><img id="decrease" src="./assets/images/icon-decrement-quantity.svg" alt=""><span id="value">1</span><img id="increase"
+                src="./assets/images/icon-increment-quantity.svg" alt=""></button>
+          </div>
+          <h5>Cake</h5>
+          <h3 id="name">Red Velvet Cake</h3>
+          <h3 id="text">$<span id="price">4.50</span></h3>
+        </div>
+        <div class="product">
+          <div class="products-box">
+            <img src="./assets/images/image-brownie-desktop.jpg" alt="">
+            <button id="main-btn"><img src="./assets/images/icon-add-to-cart.svg" alt="">Add to Cart</button>
+            <button id="hidden-btn" style="display: none;"><img id="decrease" src="./assets/images/icon-decrement-quantity.svg" alt=""><span id="value">1</span><img id="increase"
+                src="./assets/images/icon-increment-quantity.svg" alt=""></button>
+          </div>
+          <h5>Brownie</h5>
+          <h3 id="name">Salted Caramel Brownie</h3>
+          <h3 id="text">$<span id="price">4.50</span></h3>
+        </div>
+        <div class="product">
+          <div class="products-box">
+            <img src="./assets/images/image-panna-cotta-desktop.jpg" alt="">
+            <button id="main-btn"><img src="./assets/images/icon-add-to-cart.svg" alt="">Add to Cart</button>
+            <button id="hidden-btn" style="display: none;"><img id="decrease" src="./assets/images/icon-decrement-quantity.svg" alt=""><span id="value">1</span><img id="increase"
+                src="./assets/images/icon-increment-quantity.svg" alt=""></button>
+          </div>
+          <h5>Panna Cotta</h5>
+          <h3 id="name">Vanilla Panna Cotta</h3>
+          <h3 id="text">$<span id="price">6.50</span></h3>
+        </div>
+      </div>
+    </div>
+    
+    <div class="cart">
+      <div class="cart-image">
+        <h3>Your Cart (<span id="total-count">0</span>)</h3>
+        <img src="" alt="">
+      </div>
+      <div class="cart-content">
+        <img src="./assets/images/illustration-empty-cart.svg" alt="">
+        <h5>Your added items will appear here</h5>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
